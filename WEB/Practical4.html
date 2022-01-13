@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
+
+</head>
+<body ng-app="" ng-init="College={clgName:'KES',clgLocation:'Kandivali',clgPincode:'000000'}">
+    {{College.clgName}} {{College.clgLocation}} {{College.clgPincode}}<br>
+    <p>
+    College's First Name: <span ng-bind='College.clgName'></span><br>
+    <b>College Name: </b>{{College.clgName}}
+    </p>
+    <p>
+        College's Location: <span ng-bind='College.clgLocation'></span><br>
+        <B>College Location: </B>{{College.clgLocation}}
+    </p>
+    <p>
+        College's Pincode: <span ng-bind='College.clgPincode'></span><br>
+        <B>College Pincode: </B>{{College.clgPincode}}
+    </p>
+    
+</body>
+</html>
